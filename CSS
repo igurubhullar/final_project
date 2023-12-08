@@ -1,0 +1,178 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222;
+  }
+  
+  /* Header Section */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe6ac;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+  }
+  
+  /* Slider Section */
+.slider {
+    text-align: center;
+    padding: 40px;
+    background-color: #c78c06;
+    color: white;
+    overflow: hidden; /* Hide horizontal scroll bar */
+  }
+  
+  .slider h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .slider p {
+    font-size: 18px;
+  }
+  
+  .slider img {
+    max-width: 100%; /* Make sure images don't overflow the container */
+    height: auto;
+  }
+  
+  
+  /* Plant Section */
+  .plant-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+  }
+  
+  .plant-section h2 {
+    color: #c78c06;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .plant-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .plant-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .plant-item p {
+    font-size: 16px;
+  }
+  
+/* Gallery Section */
+.gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item {
+    flex: 0 0 calc(25% - 20px);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #c78c06; /* Add border for a distinct look */
+    border-radius: 8px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  /* About Section */
+  .about-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+  }
+  
+  .about-section h2 {
+    color: #c78c06;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    color: #222;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #c78c06;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section address {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section strong {
+    font-weight: bold;
+  }
+  
+  /* Footer Section */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+  }
+  
